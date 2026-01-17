@@ -71,6 +71,7 @@ header {
 
 .navbar .nav-links a {
     font-size: 18px;
+    text-decoration: none;
 }
 
 .content-section {
@@ -158,4 +159,68 @@ header {
     .team-img-container{
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+
+/* Feature will enjoy style */
+.features-will-enjoy-section{
+    display: flex;
+    margin: 0 auto;
+
+}
+.features-will-enjoy-section{
+    padding-top: 90px;
+
+}
+
+.feature-card{
+    max-width: 580px;
+    margin: 10px 0px;
+    padding: 25px;
+    border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3{
+     font-size: 20px;
+     padding-bottom: 5px;
+}
+.feature-card p{
+     font-size: 16px;
+}
+.feature-heading{
+    margin-top:60px;
+}
+
+.feature-heading h1{
+   border-left: 5px solid #FF900E;
+   padding-left: 20px;
+   border-radius: 5px;
+   font-size: 45px;
+}
+
+.feature-heading p{
+    font-size: 16px;
+    margin: 20px 30px 20px 0px;
+}
+
+.feature-section-img{
+    max-width: 710px;
+    max-height: 980px;
+}
+
+.feature-img-and-btn{
+    margin-top: 30px;
+}
+.experience-btn{
+     margin-left: -150px;
+     margin-top: -150px; 
+}
+.experience-btn #bold-text{
+    font-size: 65px;
+    font-weight: bold;
+}
+.experience-btn p{
+    font-size: 25px;
+    font-weight: normal;
 }
