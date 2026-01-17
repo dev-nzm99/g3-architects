@@ -224,3 +224,27 @@ header {
     font-size: 25px;
     font-weight: normal;
 }
+/* ------------------------------------- */
+
+.our-facts-section{
+    margin: 0 auto;
+}
+
+.fact-card{
+    border:1px solid #FF900E;
+    width: 280px;
+    height: 280px;
+    padding: 65px 30px 30px 30px;
+    text-align: center;
+}
+
+.fact-card-header h3{
+    font-size: 45px;
+    margin-top: 80px;
+    margin-bottom:10px;
+}
+.fact-card-container{
+   display: flex;
+   margin: 70px ;
+   justify-content: space-around;
+}
